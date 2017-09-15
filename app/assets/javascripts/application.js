@@ -16,10 +16,11 @@
 //= require journal/loader
 //= require journal/bootswatch
 //= require jquery.raty.js
-
-$('#star').raty({
-    size     : 36,
-    starOff: '/assets/star-off.png',
-    starOn : '/assets/star-on.png',
-    scoreName: 'review[stars]',
+$(function () {
+    $('#star').raty({
+        size     : 36,
+        starOff: '/assets/star-off.png',
+        starOn : '/assets/star-on.png',
+        scoreName: 'review[stars]',
+    });
 });
