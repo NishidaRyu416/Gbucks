@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b12809-343c-42e0-bf04-a5a290c92e79" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gbucks.iml" afterPath="$PROJECT_DIR$/.idea/gbucks.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,10 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="star-on.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/images/star-on.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -69,8 +71,8 @@
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
         <option value="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -658,12 +660,12 @@
       <workItem from="1505434560819" duration="8718000" />
       <workItem from="1505447137508" duration="9908000" />
       <workItem from="1505459125388" duration="4442000" />
-      <workItem from="1505464433206" duration="2945000" />
+      <workItem from="1505464433206" duration="3876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26267000" />
+    <option name="totallyTimeSpent" value="27198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -965,26 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="26" lean-forward="false" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding>
-            <marker date="1505465533000" expanded="true" signature="28:3817" ph="do ... end" />
-            <marker date="1505465533000" expanded="true" signature="33:160" ph="do ... end" />
-            <marker date="1505465533000" expanded="true" signature="194:445" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="640:799" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="842:957" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="1116:1228" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="1264:2213" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="2333:2618" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="2669:3039" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="3339:3499" ph="##..." />
-            <marker date="1505465533000" expanded="true" signature="3503:3712" ph="if ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1023,6 +1005,14 @@
     <entry file="file://$PROJECT_DIR$/app/assets/images/star-on.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
