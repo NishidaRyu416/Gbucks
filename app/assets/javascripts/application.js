@@ -19,8 +19,8 @@
 $(function () {
     $('#star').raty({
         size     : 36,
-        starOff: '/images/star-off.png',
-        starOn : '/images/star-on.png',
+        starOff: '/assets/star-off.png',
+        starOn : '/assets/star-on.png',
         scoreName: 'review[stars]',
     });
 });
