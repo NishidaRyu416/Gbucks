@@ -1,0 +1,6 @@
+<%=link_to "レビュー投稿",select_reviews_path%>
+<%@reviews.each do|review|%>
+    <%=Drink.find(review.drink_id).name%>
+    <%=review.stars%>
+    <%=review.body%>
+<%end%>
