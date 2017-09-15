@@ -19,8 +19,8 @@
 $(function () {
     $('#star').raty({
         size     : 36,
-        starOff: '/assets/star-off-6aaeebdaab93d594c005d366ce0d94fba02e7a07fd03557dbee8482f04a91c22.png',
-        starOn : '/assets/star-on-fd26bf0ea0990cfd808f7540f958eed324b86fc609bf56ec2b3a5612cdfde5f5.png',
+        starOff: '/images/star-off.png',
+        starOn : '/images/star-on.png',
         scoreName: 'review[stars]',
     });
 });
