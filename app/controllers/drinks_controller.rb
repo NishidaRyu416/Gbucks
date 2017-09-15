@@ -15,8 +15,6 @@ class DrinksController < ApplicationController
   def create
     @drink= Drink.new(drink_params)
     if @drink.save
-        response = firebase.push("images", { :name => params[:image], :priority => params[:image] })
-      @drink.update(image:response.body)
       redirect_to @drink
     else
       render 'new'

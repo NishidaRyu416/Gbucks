@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b12809-343c-42e0-bf04-a5a290c92e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cloudinary.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gbucks.iml" afterPath="$PROJECT_DIR$/.idea/gbucks.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/drink.rb" afterPath="$PROJECT_DIR$/app/models/drink.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/drinks/new.html.erb" afterPath="$PROJECT_DIR$/app/views/drinks/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/drinks/show.html.erb" afterPath="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/drinks_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cloudinary.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
+      <file leaf-file-name="drinks_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -54,7 +49,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/drinks/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
@@ -72,6 +66,7 @@
         <option value="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/drink.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
       </list>
     </option>
   </component>
@@ -618,16 +613,16 @@
       <workItem from="1505434047584" duration="254000" />
       <workItem from="1505434560819" duration="8718000" />
       <workItem from="1505447137508" duration="9908000" />
-      <workItem from="1505459125388" duration="3692000" />
+      <workItem from="1505459125388" duration="4038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22572000" />
+    <option name="totallyTimeSpent" value="22918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="640" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49156627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -635,7 +630,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50843376" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -788,22 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <marker date="1505449729000" expanded="true" signature="22:565" ph=" ... end" />
-            <marker date="1505449729000" expanded="true" signature="59:87" ph=" ... end" />
-            <marker date="1505449729000" expanded="true" signature="99:140" ph=" ... end" />
-            <marker date="1505449729000" expanded="true" signature="151:178" ph=" ... end" />
-            <marker date="1505449729000" expanded="true" signature="192:456" ph=" ... end" />
-            <marker date="1505449729000" expanded="true" signature="233:450" ph="if ... end" />
-            <marker date="1505449729000" expanded="true" signature="487:561" ph=" ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -938,6 +917,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding>
+            <marker date="1505463408000" expanded="true" signature="4:167" ph="development: &lt;5 keys&gt;" />
+            <marker date="1505463408000" expanded="true" signature="31:40" ph="hkeahxbqd" />
+            <marker date="1505463408000" expanded="true" signature="52:69" ph="668986313813268" />
+            <marker date="1505463408000" expanded="true" signature="84:111" ph="_Rsps5g04…0ECsfI4YWI" />
+            <marker date="1505463408000" expanded="true" signature="133:137" ph="true" />
+            <marker date="1505463408000" expanded="true" signature="162:167" ph="false" />
+            <marker date="1505463408000" expanded="true" signature="168:329" ph="production: &lt;5 keys&gt;" />
+            <marker date="1505463408000" expanded="true" signature="194:203" ph="hkeahxbqd" />
+            <marker date="1505463408000" expanded="true" signature="215:232" ph="668986313813268" />
+            <marker date="1505463408000" expanded="true" signature="247:274" ph="_Rsps5g04…0ECsfI4YWI" />
+            <marker date="1505463408000" expanded="true" signature="296:300" ph="true" />
+            <marker date="1505463408000" expanded="true" signature="325:329" ph="true" />
+            <marker date="1505463408000" expanded="true" signature="330:486" ph="test: &lt;5 keys&gt;" />
+            <marker date="1505463408000" expanded="true" signature="350:359" ph="hkeahxbqd" />
+            <marker date="1505463408000" expanded="true" signature="371:388" ph="668986313813268" />
+            <marker date="1505463408000" expanded="true" signature="403:430" ph="_Rsps5g04…0ECsfI4YWI" />
+            <marker date="1505463408000" expanded="true" signature="452:456" ph="true" />
+            <marker date="1505463408000" expanded="true" signature="481:486" ph="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/drinks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
