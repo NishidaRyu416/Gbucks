@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f6b12809-343c-42e0-bf04-a5a290c92e79" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cloudinary.yml" afterPath="$PROJECT_DIR$/config/cloudinary.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="cloudinary.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="76" column="48" lean-forward="false" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,6 +44,7 @@
     <findStrings>
       <find>serve_static_files</find>
       <find>tu</find>
+      <find>config.public_file_server.enabled</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,6 +77,7 @@
         <option value="$PROJECT_DIR$/app/views/reviews/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/cloudinary.yml" />
       </list>
     </option>
   </component>
@@ -665,12 +667,12 @@
       <workItem from="1505434560819" duration="8718000" />
       <workItem from="1505447137508" duration="9908000" />
       <workItem from="1505459125388" duration="4442000" />
-      <workItem from="1505464433206" duration="6151000" />
+      <workItem from="1505464433206" duration="6942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29473000" />
+    <option name="totallyTimeSpent" value="30264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -758,13 +760,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -867,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/reviews/select.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/reviews/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -897,13 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1216,10 +1197,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="76" column="48" lean-forward="false" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+          <folding>
+            <marker date="1505480975000" expanded="true" signature="28:3746" ph="do ... end" />
+            <marker date="1505480975000" expanded="true" signature="33:160" ph="do ... end" />
+            <marker date="1505480975000" expanded="true" signature="194:445" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="640:799" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="842:957" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="1080:1192" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="1228:2177" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="2297:2582" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="2633:3003" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="3268:3428" ph="##..." />
+            <marker date="1505480975000" expanded="true" signature="3432:3641" ph="if ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" lean-forward="false" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <marker date="1505480053000" expanded="true" signature="0:779" ph="//..." />
             <marker date="1505480053000" expanded="true" signature="794:967" ph="{...}" />
@@ -1228,10 +1229,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/reviews/select.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="76" column="48" lean-forward="false" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <marker date="1505456855000" expanded="true" signature="16:556" ph="..." />
+            <marker date="1505456855000" expanded="true" signature="35:548" ph="do ... end" />
+            <marker date="1505456855000" expanded="true" signature="83:539" ph="..." />
+            <marker date="1505456855000" expanded="true" signature="115:526" ph="..." />
+            <marker date="1505456855000" expanded="true" signature="129:201" ph="if ... end" />
+            <marker date="1505456855000" expanded="true" signature="234:511" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cable.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505434048000" expanded="true" signature="0:29" ph="development: &lt;1 key&gt;" />
+            <marker date="1505434048000" expanded="true" signature="24:29" ph="async" />
+            <marker date="1505434048000" expanded="true" signature="31:53" ph="test: &lt;1 key&gt;" />
+            <marker date="1505434048000" expanded="true" signature="48:53" ph="async" />
+            <marker date="1505434048000" expanded="true" signature="55:151" ph="production: &lt;3 keys&gt;" />
+            <marker date="1505434048000" expanded="true" signature="78:83" ph="redis" />
+            <marker date="1505434048000" expanded="true" signature="91:115" ph="redis://l…ost:6379/1" />
+            <marker date="1505434048000" expanded="true" signature="134:151" ph="gbucks_production" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505434048000" expanded="true" signature="464:712" ph="default: &lt;3 keys&gt;" />
+            <marker date="1505434048000" expanded="true" signature="473:481" ph="&amp;default" />
+            <marker date="1505434048000" expanded="true" signature="493:503" ph="postgresql" />
+            <marker date="1505434048000" expanded="true" signature="516:523" ph="unicode" />
+            <marker date="1505434048000" expanded="true" signature="669:712" ph="&lt;%= ENV.f…) { 5 } %&gt;" />
+            <marker date="1505434048000" expanded="true" signature="714:772" ph="development: &lt;2 keys&gt;" />
+            <marker date="1505434048000" expanded="true" signature="733:741" ph="*default" />
+            <marker date="1505434048000" expanded="true" signature="754:772" ph="gbucks_development" />
+            <marker date="1505434048000" expanded="true" signature="1999:2043" ph="test: &lt;2 keys&gt;" />
+            <marker date="1505434048000" expanded="true" signature="2011:2019" ph="*default" />
+            <marker date="1505434048000" expanded="true" signature="2032:2043" ph="gbucks_test" />
+            <marker date="1505434048000" expanded="true" signature="2830:2956" ph="production: &lt;4 keys&gt;" />
+            <marker date="1505434048000" expanded="true" signature="2848:2856" ph="*default" />
+            <marker date="1505434048000" expanded="true" signature="2869:2886" ph="gbucks_production" />
+            <marker date="1505434048000" expanded="true" signature="2899:2905" ph="gbucks" />
+            <marker date="1505434048000" expanded="true" signature="2918:2956" ph="&lt;%= ENV['…SWORD'] %&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
