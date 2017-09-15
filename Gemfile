@@ -12,12 +12,13 @@ gem 'pg', '~> 0.18'
 gem 'twitter-bootswatch-rails', '~> 3.1.1'
 gem 'twitter-bootswatch-rails-helpers'
 gem 'execjs'
-gem 'less-rails'
+gem 'less-rails', git: 'https://github.com/MustafaZain/less-rails'
 gem 'therubyracer'
 gem 'carrierwave'
 gem 'cloudinary'
 gem "rails_12factor", group: :production
 gem 'jquery-rails'
+gem 'sprockets'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
