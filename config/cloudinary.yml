@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: hkeahxbqd
+  api_key: '668986313813268'
+  api_secret: _Rsps5g04ca1YapTZ0ECsfI4YWI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hkeahxbqd
+  api_key: '668986313813268'
+  api_secret: _Rsps5g04ca1YapTZ0ECsfI4YWI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hkeahxbqd
+  api_key: '668986313813268'
+  api_secret: _Rsps5g04ca1YapTZ0ECsfI4YWI
+  enhance_image_tag: true
+  static_image_support: false

@@ -4,4 +4,4 @@
 説明:<%=@drink.explanation%>
 ドリンク名:<%=@drink.name%>
 イメージ:<%=@drink.image%>
-<%%>
+<%= image_tag(@drink.image(:thumbnail), :width => 80, :height => 80) %>

@@ -13,6 +13,6 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   def public_id
-    return Drink.id
+    return Time.now
   end
 end

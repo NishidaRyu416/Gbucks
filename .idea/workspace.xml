@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b12809-343c-42e0-bf04-a5a290c92e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-76cd164d87a9ed879bb9f6d29201134e8da8085da064560832bf242dfd6838f5.css.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f92444daae1b8736cb6692b5f1fdaa8145c0e7facc26c8af7e711bf22c25357f.js.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/cancel-off-a9b80e5db625004a79c5a14979accb3501b273f69dfbbffbd9309c713c5cee78.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/cancel-on-ce07a8b5022e59a1bde9690b720a6bf10fc9767db6512d14ebff2782ec62b5bf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/star-half-db15fb9b3561d5c741d8aea9ef4f0957bd9bc51aa1caa6d7a5c316e083c1abd5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/star-off-6aaeebdaab93d594c005d366ce0d94fba02e7a07fd03557dbee8482f04a91c22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/star-on-fd26bf0ea0990cfd808f7540f958eed324b86fc609bf56ec2b3a5612cdfde5f5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358.ttf.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a.svg.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431.eot.gz" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/.sprockets-manifest-0aa0bad379d4ae628d0ec62dc12f976e.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-76cd164d87a9ed879bb9f6d29201134e8da8085da064560832bf242dfd6838f5.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/application-f92444daae1b8736cb6692b5f1fdaa8145c0e7facc26c8af7e711bf22c25357f.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/twitter/bootstrap/glyphicons-halflings-regular-d168d50a88c730b4e6830dc0da2a2b51dae4658a77d9619943c27b8ecfc19d1a.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/cloudinary.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gbucks.iml" afterPath="$PROJECT_DIR$/.idea/gbucks.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/drink.rb" afterPath="$PROJECT_DIR$/app/models/drink.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/drinks/new.html.erb" afterPath="$PROJECT_DIR$/app/views/drinks/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/drinks/show.html.erb" afterPath="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="cloudinary.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="31" column="110" lean-forward="false" selection-start-line="31" selection-start-column="110" selection-end-line="31" selection-end-column="110" />
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -68,7 +54,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/drinks/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/drinks_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
@@ -82,9 +67,11 @@
         <option value="$PROJECT_DIR$/app/controllers/reviews_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/reviews/select.html.erb" />
         <option value="$PROJECT_DIR$/app/views/reviews/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
-        <option value="$PROJECT_DIR$/app/views/drinks/new.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/drinks/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/drinks/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/drink.rb" />
+        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
       </list>
     </option>
   </component>
@@ -421,6 +408,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
@@ -630,16 +618,16 @@
       <workItem from="1505434047584" duration="254000" />
       <workItem from="1505434560819" duration="8718000" />
       <workItem from="1505447137508" duration="9908000" />
-      <workItem from="1505459125388" duration="1759000" />
+      <workItem from="1505459125388" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20639000" />
+    <option name="totallyTimeSpent" value="22572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="640" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.49156627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -647,7 +635,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50843376" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,7 +665,7 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1505460416000" expanded="true" signature="21:524" ph="do ... end" />
+            <marker date="1505462374000" expanded="true" signature="21:445" ph="do ... end" />
           </folding>
         </state>
       </provider>
@@ -687,7 +675,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding>
-            <marker date="1505460416000" expanded="true" signature="21:524" ph="do ... end" />
+            <marker date="1505462374000" expanded="true" signature="21:445" ph="do ... end" />
           </folding>
         </state>
       </provider>
@@ -696,7 +684,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
+          <folding>
+            <marker date="1505461150000" expanded="true" signature="51:182" ph="do ... end" />
+            <marker date="1505461150000" expanded="true" signature="751:911" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="941:1125" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="1151:1372" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="1400:1664" ph="do ... end" />
+            <marker date="1505461150000" expanded="true" signature="1685:2041" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,19 +709,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/drink.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20170915010838_addnametodrinks.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20170915010610_addexplanationtodrinks.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20170915001817_create_drinks.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505434697000" expanded="true" signature="18:132" ph=" ... end" />
+            <marker date="1505434697000" expanded="true" signature="62:128" ph=" ... end" />
+            <marker date="1505434697000" expanded="true" signature="88:122" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,6 +727,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505438139000" expanded="true" signature="22:116" ph=" ... end" />
+            <marker date="1505438139000" expanded="true" signature="66:112" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,6 +738,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505438213000" expanded="true" signature="22:116" ph=" ... end" />
+            <marker date="1505438213000" expanded="true" signature="66:112" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,24 +818,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/reviews/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/reviews_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/drinks/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <marker date="1505456730000" expanded="true" signature="23:498" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="60:90" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="104:132" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="143:204" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="215:258" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="271:397" ph=" ... end" />
+            <marker date="1505456730000" expanded="true" signature="314:391" ph="if ... end" />
+            <marker date="1505456730000" expanded="true" signature="429:494" ph=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,27 +868,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="295">
+          <caret line="31" column="110" lean-forward="false" selection-start-line="31" selection-start-column="110" selection-end-line="31" selection-end-column="110" />
+          <folding>
+            <marker date="1505461150000" expanded="true" signature="51:182" ph="do ... end" />
+            <marker date="1505461150000" expanded="true" signature="751:911" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="941:1125" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="1151:1372" ph="##..." />
+            <marker date="1505461150000" expanded="true" signature="1400:1664" ph="do ... end" />
+            <marker date="1505461150000" expanded="true" signature="1685:2041" ph="do ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/reviews/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <marker date="1505455974000" expanded="true" signature="47:304" ph="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/drinks/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
-            <marker date="1505460416000" expanded="true" signature="21:524" ph="do ... end" />
+            <marker date="1505462374000" expanded="true" signature="21:445" ph="do ... end" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/views/drinks/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="31" column="110" lean-forward="false" selection-start-line="31" selection-start-column="110" selection-end-line="31" selection-end-column="110" />
+        <state relative-caret-position="90">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/drink.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding>
+            <marker date="1505462509000" expanded="true" signature="11:74" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <marker date="1505463015000" expanded="true" signature="19:338" ph=" ... end" />
+            <marker date="1505463015000" expanded="true" signature="163:221" ph="do ... end" />
+            <marker date="1505463015000" expanded="true" signature="244:291" ph="do ... end" />
+            <marker date="1505463015000" expanded="true" signature="308:334" ph=" ... end" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
