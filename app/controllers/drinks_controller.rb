@@ -20,6 +20,18 @@ class DrinksController < ApplicationController
       render 'new'
     end
   end
+  def edit
+    @drink=Drink.find(params[:id])
+  end
+
+  def update
+    @drink=Drink.find(params[:id])
+  if @drink.update(document_params)
+    redirect_to @document
+  else
+    render 'edit'
+  end
+  end
 
   private
 

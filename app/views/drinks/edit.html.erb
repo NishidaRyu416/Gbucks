@@ -1,0 +1,19 @@
+<%= form_for(@drink) do |f| %>
+
+    <%= f.label :name,"ドリンク名"%>
+    <%= f.text_field :name,class:"input-group form-control"%>
+
+    <%= f.label :price,"値段"%>
+    <%= f.text_field :price,class:"input-group form-control"%>
+
+    <%= f.label :explanation,"説明"%>
+    <%= f.text_area :explanation,class:"input-group form-control"%>
+
+
+
+    <%= f.label :image,"画像"%>
+    <%=f.file_field :image%><br>
+
+    <%= f.submit '完了', class: "btn btn-send" %>
+<%end%>
+
