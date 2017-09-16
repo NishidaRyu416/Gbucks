@@ -33,3 +33,27 @@
       </div>
   <%end%>
 </div>
+<h3>レビュー 一覧</h3>
+<%=link_to "レビュー投稿",select_reviews_path%>
+<div class="panel panel-default">
+  <div class="panel-heading">レビュー 一覧</div>
+  <table class="table">
+    <tr>
+      <th>#</th>
+      <th>イメージ</th>
+      <th>ドリンク名</th>
+      <th>星</th>
+      <th>本文</th>
+    </tr>
+    <%@reviews.each.with_index(1) do|review,index|%>
+        <tr>
+          <td><%=index%></td>
+          <td><%= cl_image_tag(Drink.find(review.drink_id).image,:width=>"50",:height=>"50",class:"img-circle img-responsive")%></td>
+          <td><%=link_to Drink.find(review.drink_id).name,Drink.find(review.drink_id)%></td>
+          <td><%=raty_stars(review.stars.to_i)%></td>
+          <td><%=review.body%></td>
+        </tr>
+    <%end%>
+  </table>
+</div>
+<%=link_to "レビュー投稿",select_reviews_path%>
