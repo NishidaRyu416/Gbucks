@@ -26,8 +26,8 @@ class DrinksController < ApplicationController
 
   def update
     @drink=Drink.find(params[:id])
-  if @drink.update(document_params)
-    redirect_to @document
+  if @drink.update(drink_params)
+    redirect_to @drink
   else
     render 'edit'
   end
