@@ -21,4 +21,15 @@
 .jumbotron {
     background-image: image-url("/assets/juice.jpg");
     background-size: cover;
+
+}
+.introduction{
+  color:darkblue;
+}
+
+.navbar-brand {
+  background: image-url("/assets/24409.jpg") no-repeat right;
+  background-size: contain;
+  height: 50px;
+  width: 250px;
 }
