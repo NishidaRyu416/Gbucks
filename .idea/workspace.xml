@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6b12809-343c-42e0-bf04-a5a290c92e79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/店内1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/店内2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
     </list>
@@ -23,8 +25,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -721,12 +723,12 @@
       <workItem from="1505434560819" duration="8718000" />
       <workItem from="1505447137508" duration="9908000" />
       <workItem from="1505459125388" duration="4442000" />
-      <workItem from="1505464433206" duration="22076000" />
+      <workItem from="1505464433206" duration="23105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45398000" />
+    <option name="totallyTimeSpent" value="46427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="81" width="1280" height="640" extended-state="0" />
@@ -1397,20 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/reviews/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <marker date="1505548238000" expanded="true" signature="74:682" ph="..." />
-            <marker date="1505548238000" expanded="true" signature="141:675" ph="..." />
-            <marker date="1505548238000" expanded="true" signature="150:253" ph="..." />
-            <marker date="1505548238000" expanded="true" signature="289:663" ph="do ... end" />
-            <marker date="1505548238000" expanded="true" signature="315:652" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/drinks/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1447,10 +1435,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/reviews/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="121" lean-forward="true" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="121" />
+          <folding>
+            <marker date="1505548238000" expanded="true" signature="74:682" ph="..." />
+            <marker date="1505548238000" expanded="true" signature="141:675" ph="..." />
+            <marker date="1505548238000" expanded="true" signature="150:253" ph="..." />
+            <marker date="1505548238000" expanded="true" signature="289:663" ph="do ... end" />
+            <marker date="1505548238000" expanded="true" signature="315:652" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
           <folding />
         </state>
       </provider>
