@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'welcome/index'
+  get  'welcome/roulette'
   root to:"welcome#index"
   resources :drinks
   resources :reviews do
