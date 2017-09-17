@@ -20,8 +20,13 @@
 <%=render "layouts/header"%>
 <!--header-->
 <body>
-
 <div class="container" style="padding-top:20px;">
+  <% flash.each do |name, msg| %>
+      <div class="alert alert-<%= name == "notice" ? "success" : "danger" %>">
+        <a class="close" data-dismiss="alert">×</a> <!-- アラートダイアログに×ボタンをつける -->
+        <%= msg %>
+      </div>
+  <% end %>
   <%= yield %>
 </div>
 <!-- Javascripts

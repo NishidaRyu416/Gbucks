@@ -20,6 +20,7 @@ class ReviewsController < ApplicationController
     if @review.save
       redirect_to reviews_path
     else
+      flash[:error]="エラー(星は1~5の五段階評価です)"
       render "new"
     end
   end
