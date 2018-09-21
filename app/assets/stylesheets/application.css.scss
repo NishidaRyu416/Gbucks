@@ -14,9 +14,8 @@
 
 /*
  *= require_self
- *= require journal/loader
- *= require journal/bootswatch
 */
+@import "now-ui-kit";
 
 .jumbotron {
     background-image: image-url("/assets/juice.jpg");
