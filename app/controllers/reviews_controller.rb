@@ -15,14 +15,11 @@ class ReviewsController < ApplicationController
   def show
     @review=Review.find(params[:id])
   end
-
   def create
     @review=Review.new(review_params)
     if @review.save
       redirect_to reviews_path
     else
-      @drink_id=params[:review][:drink_id]
-      p @drink_id
       flash[:error]="エラー(星は1~5の五段階評価です)"
       render "new"
     end

@@ -13,9 +13,8 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery_ujs
-//= require popper
-//= require bootstrap
-//= require now-ui-kit
+//= require journal/loader
+//= require journal/bootswatch
 //= require jquery.raty.js
 $(function () {
     $('#star').raty({
